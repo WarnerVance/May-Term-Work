@@ -131,7 +131,7 @@ bucket_sort_time = []
 merge_sort_time = []
 print("Running tests...")
 start = time.time()
-for i in range(1):
+for i in range(500):
     list_of_numbers = [random.randint(0, 1000) for i in range(10000)]
     list_of_numbers_mst = list_of_numbers.copy()
     bubble_sort_time.append(test_sort(list_of_numbers, bubble_sort))
